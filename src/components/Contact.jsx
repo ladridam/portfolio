@@ -50,7 +50,6 @@ function Contact() {
                 </h2>
                 <p className="text-base text-zinc-600 mb-12 max-w-lg">
                     Open to internship opportunities in AI, web development, and product engineering.
-                    Reach out directly — I respond quickly.
                 </p>
 
                 <div className="grid md:grid-cols-3 gap-4">
