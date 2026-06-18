@@ -1,4 +1,4 @@
-import portfolioImg from "../assets/images/portfolioImg.jpeg";
+import profileImage from "../assets/images/profileImage.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 function Hero() {
@@ -23,13 +23,11 @@ function Hero() {
           </h1>
 
           <p className="text-lg text-zinc-500 font-medium mb-6">
-            BCA Student · AI Applications · Web Development
+            BCA Student · Building Technology for People
           </p>
 
           <p className="text-base text-zinc-600 leading-relaxed mb-10 max-w-lg">
-            I build AI-powered tools and web applications focused on real utility.
-            Currently exploring LLM integration, Chrome extension development,
-            and accessible product design.
+            Driven by curiosity and a growth mindset, I explore how technology can become more intuitive, accessible, and meaningful. My goal is to bridge the gap between human needs and technological possibilities through thoughtful software and AI-powered solutions.
           </p>
 
           <div className="flex flex-wrap gap-3 mb-10">
@@ -80,7 +78,7 @@ function Hero() {
         <div className="md:col-span-2 flex flex-col items-center gap-5">
 
           <img
-            src={portfolioImg}
+            src={profileImage}
             alt="Ridam Rabi Das"
             className="w-56 h-56 object-cover rounded-2xl border border-zinc-200 shadow-sm"
           />
